@@ -3,10 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    display: grid;
-    place-content: center;
-    height: 50px;
-    box-shadow: 4px 0 8px #0006;
-    font-size: 2rem;
+.container{
+    background-color: aqua;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100vh;
+}
+.container__contatos{
+    background-color: blue;
+    width: 40%;
+}
+.container__mensagens{
+    background-color: blueviolet;
+    width: 100%;
 }
