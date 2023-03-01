@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,16 +11,39 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <title>Whatsapp Fake</title>
 </head>
+
 <body>
     <div class="container">
-        <div class="container__contatos">
-            <div class="barra">
-                <i class="fas fa-users"></i>
+        <div class="container-esquerdo">
+            <div class="header-esquerdo">
+                <ul class="nav-perfil">
+                    <i class="fa-solid fa-users"></i>
+                    <i class="fas fa-circle-notch"></i>
+                    <i class="fa-solid fa-message"></i>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </ul>
+            </div>
+            <div class="barra-de-pesquisa">
+                <div class="pesquisa">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Pesquisar ou começar uma nova conversa" class="caixa-de-pesquisa">
+                </div>
+                <div class="filtro-de-conversas">
+                    <i class="fas fa-sort-amount-up"></i>
+                </div>
+            </div>
+            <ul class="container-mensagens" id="container">
+            </ul>
+        </div>
+        <div class="container-direito">
+            <div class="header-direito">
+                <ul class="nav-perfil-direito">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </ul>
             </div>
         </div>
-
-        <div class="container__mensagens"></div>
     </div>
-
 </body>
+
 </html>
