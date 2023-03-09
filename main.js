@@ -9,7 +9,7 @@ const criarCard = (contato) => {
 
     const fotoPessoa = document.createElement('img')
     fotoPessoa.classList.add('img-chat')
-    fotoPessoa.src = `./img/contact1.png`
+    fotoPessoa.src = `../${contato.image}`
 
     const informacao = document.createElement('div')
     informacao.classList.add('container-info')
